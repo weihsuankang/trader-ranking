@@ -7,6 +7,7 @@ const TraderRankingPage = () => {
 
   // 模擬數據，在後端 API 完成後將會從 API 獲取數據
   useEffect(() => {
+    console.log("test");
     const fetchData = async () => {
       // 假設這是從 API 獲取的數據
       const mockData = [
